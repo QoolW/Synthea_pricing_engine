@@ -32,7 +32,7 @@ risk statistics.
    the national average (`risk_multiplier = dosm_injury_rate_per_1k x national_avg_injury_rate`).
 5. **Validate the model choice statistically:** GLM vs. XGBoost is decided by a paired
    significance test (Wilcoxon signed-rank + paired t-test) on held-out data.
-6. **Roll up to employer groups:** Apply a group-size discount and profit margin, rescale to
+6. **Roll up to employer groups:** Rescale to
    a Malaysian Ringgit benchmark, and export to two Excel deliverables: a formatted
    quote schedule and a PivotTable/PivotChart dashboard.
 
