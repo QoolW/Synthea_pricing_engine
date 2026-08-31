@@ -36,7 +36,7 @@ risk statistics.
    a Malaysian Ringgit benchmark, and export to two Excel deliverables: a formatted
    quote schedule and a PivotTable/PivotChart dashboard.
 
-## Outcome
+## Outcomes
 - **Smoking status:** Before the fix, `is_smoker` came out negative. On the corrected 1,919-row panel: `is_smoker` = 0.0713, p < 0.001 (positive and significant).
 - **Gender (female):** `is_female = 1.0573` is a large, significant effect (exp(1.057) ≈ 2.9x). Plausibly real reproductive/maternity care utilization in Synthea's clinical modules (worth investigating).
 - **GLM Poisson vs. Tweedie (Nearly identical):** RMSE `$34,343.77` vs `$34,389.20` -- MAE `$15,324.60` vs `$15,334.1` 
